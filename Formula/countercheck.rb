@@ -2,22 +2,22 @@
 class Countercheck < Formula
   desc "Proof that AI work really happened: re-runs checks in a clean copy and writes a receipt"
   homepage "https://countercheck.datacrate360.ai"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
-    url "https://github.com/datacrate360/countercheck/releases/download/v0.2.1/countercheck-0.2.1-macos-universal.tar.gz"
-    sha256 "44f792143dd8cb3579655e88b4637e7d32c77cd550a7c31cffe423b5e2756f8f"
+    url "https://github.com/datacrate360/countercheck/releases/download/v0.3.0/countercheck-0.3.0-macos-universal.tar.gz"
+    sha256 "4a45c172bbe6094c06a7985bde2ea4ba41181b220a56536b39cadc5fddb990bc"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/datacrate360/countercheck/releases/download/v0.2.1/countercheck-0.2.1-linux-x86_64.tar.gz"
-      sha256 "cc7d26042049567bc546c478fd2163ac317319d8d7b5929a829115e782537948"
+      url "https://github.com/datacrate360/countercheck/releases/download/v0.3.0/countercheck-0.3.0-linux-x86_64.tar.gz"
+      sha256 "433df64b62258b3e3d11d3eccf97f2da3677b74367cff84e4370394cf9ffcb8d"
     end
     on_arm do
-      url "https://github.com/datacrate360/countercheck/releases/download/v0.2.1/countercheck-0.2.1-linux-aarch64.tar.gz"
-      sha256 "4adce1f63059afb69b6588d54e8258bae59c549e05b54171857c72169d1a9439"
+      url "https://github.com/datacrate360/countercheck/releases/download/v0.3.0/countercheck-0.3.0-linux-aarch64.tar.gz"
+      sha256 "60fbc94516416d8bfd70a2bfd2dad49d21785df8ea7940db5190d5cdc0dfc123"
     end
   end
 
