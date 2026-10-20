@@ -1,6 +1,7 @@
 # DataCrate360 Homebrew tap
 
 ```sh
+brew trust --formula datacrate360/tap/agent-countercheck   # once: Homebrew 7 asks before loading a third-party tap's formula
 brew install datacrate360/tap/agent-countercheck
 ```
 
