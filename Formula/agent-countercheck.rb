@@ -2,22 +2,22 @@
 class AgentCountercheck < Formula
   desc "Proof that AI agents' work really happened: re-runs checks and writes a receipt"
   homepage "https://countercheck.datacrate360.ai"
-  version "0.20.0"
+  version "0.20.1"
   license "MIT"
 
   on_macos do
-    url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.0/countercheck-0.20.0-macos-universal.tar.gz"
-    sha256 "2c475ab33a8cd6e001364d2a709c0777b43792e62578a94597229be32471f361"
+    url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.1/countercheck-0.20.1-macos-universal.tar.gz"
+    sha256 "460e61a556931b208d82e0aaee69a25a9214739f73fba47b115c3376a91cb20b"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.0/countercheck-0.20.0-linux-x86_64.tar.gz"
-      sha256 "881b2650018f05c426483b4030852c4da26fe639c516d74299ecb8d29a478bb0"
+      url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.1/countercheck-0.20.1-linux-x86_64.tar.gz"
+      sha256 "440780d08c96c8b6a9d9da3b1e3d2a6c572e845ebbd016b7e92094a08631ae3d"
     end
     on_arm do
-      url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.0/countercheck-0.20.0-linux-aarch64.tar.gz"
-      sha256 "7fc33f83a45e8710e115dd76bf68cffc04e69089b571c235e8f25ff034927130"
+      url "https://github.com/datacrate360/agent-countercheck/releases/download/v0.20.1/countercheck-0.20.1-linux-aarch64.tar.gz"
+      sha256 "450c39276fd3a59b0aa690cfe6b80be6a6ad669f1a4ad0a4b7116617d65b121b"
     end
   end
 
